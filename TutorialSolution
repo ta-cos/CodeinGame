@@ -1,3 +1,9 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+
+using namespace std;
 /**
  * CodinGame planet is being attacked by slimy insectoid aliens.
  * <---
