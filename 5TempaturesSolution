@@ -1,0 +1,22 @@
+#include <iostream>
+#include <string>
+#include <math.h>
+ 
+using namespace std;
+ 
+int main() {
+	int n;
+	cin >> n;
+	if (n!=0) {
+	    int best=5527, Temp;
+            for (int i=0; i<n; i++) {
+                cin >> Temp;
+                if (abs(best)>abs(Temp)||(abs(best)==Temp)) {
+                    best=Temp;
+    	        }
+            }
+        cout << best << endl;
+	}
+	if(n==0)
+        cout << 0 << endl;
+}
